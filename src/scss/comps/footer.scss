@@ -1,0 +1,22 @@
+
+.page-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $accent-black;
+	color: $accent-white;
+	min-height: 10vh;
+	padding: 0.5rem 1rem;
+	bottom: 0;
+
+	.footer-copyright{
+		font-size: 1.5em
+	}
+	.socials-links {
+		font-size: 1.5em;
+		width: 50vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}

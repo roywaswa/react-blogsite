@@ -1,0 +1,46 @@
+.blog-tile{
+  margin: 1rem;
+  border: 0.2rem solid $accent-black;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5rem;
+  justify-content: center;
+  width: 25vw;
+  min-width: 350px;
+
+
+  &-title {
+    font-size: 1.5em;
+  }
+  &-author {
+    font-size: 1.3em;
+  }
+  &-headline {
+    font-size: 1.3em;
+    text-align: justify;
+  }
+  &-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .timestamp {
+      font-size: 1.3em;
+    }
+    .actions {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 50%;
+      gap: 0.3rem;
+
+      div {
+        cursor: pointer;
+      }
+    }
+  }
+}

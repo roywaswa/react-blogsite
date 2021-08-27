@@ -1,0 +1,29 @@
+
+.navbar {
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+
+  &-header{
+    font-size: 2em;
+    font-weight: 600;
+  }
+  &-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 50vw;
+
+    .nav-link {
+      padding: 0.5rem;
+      font-size: 1.5em;
+      background-color: $accent-black;
+      color: $accent-white;
+    }
+  }
+}
